@@ -10,17 +10,17 @@ project = 'uno'
 
 setup(
     name=project,
-    version='0.3.3',
+    version='0.4.0',
     description=long_description,
     author='Jason Goldberger',
     author_email='jason@datamelon.io',
-    url='https://github.com/jlgoldb2/Uno',
+    url='https://github.com/xzzy/Uno',
     packages=["uno"],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'py==1.4.22',
-        'pytest==2.6.0',
+        'py==1.11.0',
+        'pytest==9.1.1',
         ],
     platforms='any',
 )
